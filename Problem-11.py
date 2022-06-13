@@ -1,3 +1,4 @@
+#What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
 import numpy as np
 f = open("Problem-11txt.txt", "r")
 x=(f.read()).split()
