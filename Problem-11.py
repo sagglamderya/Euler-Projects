@@ -1,6 +1,6 @@
 #What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
 import numpy as np
-f = open("Problem-11txt.txt", "r")
+f = open("Problem-11.txt", "r")
 x=(f.read()).split()
 arr=(np.array(x, dtype=int)).reshape(20,20)
 k=1
@@ -23,5 +23,3 @@ for i in range(19):
         except IndexError:
             pass
 print(k)
-
-
